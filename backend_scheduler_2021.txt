@@ -12,4 +12,4 @@
 JavaScript 공부 시작 (21.07.25)
 JavaScript 구조 및 수연산, 비교 (21.07.26)
 JavaScript 조건문, 논리연산자, 반복문 (21.07.27)
-JavaScript 반복문 제어 및 중첩 (21.07.28)
+JavaScript 반복문 제어 및 중첩, 함수 (21.07.28)
