@@ -20,4 +20,5 @@ JavaScript 함수 유효범위(Scope), 다른 언어와 다른 점은 반복문 
             콜백 등등 가능한 이유 
 JavaScript 클로저 (21.08.02)
 JavaScript 클로저 응용 (21.08.03)
-JavaScript Arguments (21.08.04)
+JavaScript Arguments, Parameters 이해 (21.08.04)
+JavaScript 객체 지향 프로그래밍 (21.08.05)
