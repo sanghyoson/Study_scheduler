@@ -27,3 +27,5 @@ JavaScript 상속의 활용, prototype, prototype chain, 내장 객체 (21.08.07
 JavaScript 내장객체를 이용한 배열 확장 - prototype을 이용한 배열 확장 (21.08.08)
             Object 내장 객체
 JavaScript 원시 데이터 객체, wrapper 객체 (21.08.09)
+            HTML, CSS 시작하기
+
