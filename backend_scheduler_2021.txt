@@ -48,4 +48,4 @@ WebApp HTML, 링크를 이용하여 연속적으로 웹사이트를 이어주면
 WebApp 텍스트 에디터 설치(Atom) - (21.08.15)
         CSS : Cascading Style Sheet 기본 문법 / 스타일을 내기 위한 언어이고 HTML과는 다르나, HTML을 떠나서는 사용할 수 없다.
         -> HTML은 <정보> 이다.
-        -> CSS <꾸미기> CS
+        -> CSS <꾸미기>
