@@ -50,5 +50,4 @@ WebApp 텍스트 에디터 설치(Atom) - (21.08.15)
         -> HTML은 <정보> 이다.
         -> CSS <꾸미기>
 WebApp CSS는 선택자와 서술자로 구분된다 - (21.08.16)
-
-
+                ** scheduler update test
