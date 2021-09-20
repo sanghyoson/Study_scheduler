@@ -155,4 +155,8 @@ POSIX(Portable Operating System Interface) (21.09.18) / 블로그 정리하면�
                 ------ telnet : 원격 컴퓨터 접근 프로토콜
                 ------ FTP (File Transfer Protocol) : 파일 전송 표준
                 ------ POP3 : 이메일 수신
-                ------ IMAP(Internet Message Access Protocol) : 로컬에서 이메일 접근
+                ------ IMAP(Internet Message Access Protocol) : 로컬에서 이메일 접근,
+                ------ SMTP 메일 송수신 프로토콜(주로 송신)
+                ------ HTTP : www 환경에서 유용한 문서 전송 프로토콜
+
+                sf
