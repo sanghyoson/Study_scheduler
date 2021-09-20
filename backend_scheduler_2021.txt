@@ -1,4 +1,4 @@
-백엔드 개발 스터디 공부
+<h1>백엔드 개발 스터디 공부</h1>
 
 ----- 인터넷 관련 -----
 ## 인터넷 작동원리 (21.07.23)
@@ -155,8 +155,12 @@ POSIX(Portable Operating System Interface) (21.09.18) / 블로그 정리하면�
                 ------ telnet : 원격 컴퓨터 접근 프로토콜
                 ------ FTP (File Transfer Protocol) : 파일 전송 표준
                 ------ POP3 : 이메일 수신
+<<<<<<< HEAD
                 ------ IMAP(Internet Message Access Protocol) : 로컬에서 이메일 접근,
                 ------ SMTP 메일 송수신 프로토콜(주로 송신)
                 ------ HTTP : www 환경에서 유용한 문서 전송 프로토콜
 
                 sf
+=======
+                ------ IMAP(Internet Message Access Protocol) : 로컬에서 이메일 접근
+>>>>>>> cecb25f15c52361fbf1425f4ad4c13a5461c476d
