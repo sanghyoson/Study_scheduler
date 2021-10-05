@@ -184,7 +184,10 @@ POSIX(Portable Operating System Interface) (21.09.18) / 블로그 정리하면�
         21.10.05
                 PostreSQL 공부 시작, 
                 1. SQL 구문은 습관적으로 대문자를 이용해야 한다. 그래야 후에 혼동이 적다.
-                
+                2. database를 생성하는 구문은 CREATE
+                3. DROP구문은 주의 해야한다. -> 이를 사용시 매우 데이터 복구를 할 수 없다.
+                4. TABLE 형태로 데이터가 저장되며, 저장시 각 컬럼의 데이터 이름, 형식을 지정해주어야 한다.
+                5. 데이터를 입력하기 위해서는 INSERT INTO a VALUE b 를 이용하여 입력한다 
 
 
 
