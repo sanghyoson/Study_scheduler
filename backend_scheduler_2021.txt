@@ -179,7 +179,12 @@ POSIX(Portable Operating System Interface) (21.09.18) / 블로그 정리하면�
         21.10.04      
                 블로그 로고 클릭시 로컬로 이동하는 문제 --> 주소 변경하여 해결 
                 블로그 about 작성 완료 --> 기존 공부 했던 자료 추가적으로 올려야 함
-                PostreSQL 설치 완료
+                PostreSQL 설치 완료 및 공부 시작
+        
+        21.10.05
+                PostreSQL 공부 시작, 
+                1. SQL 구문은 습관적으로 대문자를 이용해야 한다. 그래야 후에 혼동이 적다.
+                
 
 
 
