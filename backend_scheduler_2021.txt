@@ -188,6 +188,8 @@ POSIX(Portable Operating System Interface) (21.09.18) / 블로그 정리하면�
                 3. DROP구문은 주의 해야한다. -> 이를 사용시 매우 데이터 복구를 할 수 없다.
                 4. TABLE 형태로 데이터가 저장되며, 저장시 각 컬럼의 데이터 이름, 형식을 지정해주어야 한다.
                 5. 데이터를 입력하기 위해서는 INSERT INTO a VALUE b 를 이용하여 입력한다 
+                6. 데이터를 부르는 방법은 SELECT *(or something) FROM table_name
+                7. \i 경로/파일.확장자 방식으로 파일을 실행시킬 수 있으며, VSC를 이용하면 Terminal에서 입력하는 것보다 수월하게 코드를 작성, 수정이 가능하다.
 
 
 
