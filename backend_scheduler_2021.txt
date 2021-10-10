@@ -214,7 +214,9 @@ POSIX(Portable Operating System Interface) (21.09.18) / 블로그 정리하면�
                 22. UNIQUE를 통해서 CONSTRAINT를 선언하면, 동일한 값을 사용하지 못하게 할 수 있다.                      ** PRIMARY KEY와의 차이점은?
                         ex) ALTER TABLE person ADD CONSTRAINT unque_email_constraint UNIQUE (email);     다음과 같이 선언시 UNIQUE하게 email 중복이 발생하지 않도록 할 수있다.
 
-        
+                23. CHECK 를 이용한 CONSTRAINT에서는 조건에 원하는 조건이 만족되는지 확인하고 데이터를 입력할 수 있다.
+                        ex) ALTER TALBER person ADD CONSTRAINT gender_constraint CHECK (gender IN ('Male', 'Female'));
+                                위 코드를 입력하면, 새로운 입력이 삽일 될 때, gender가 두 값이 이외의 값이 들어오면 에러를 발생 시킨다.
 
 
         
