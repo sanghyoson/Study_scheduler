@@ -201,6 +201,20 @@ POSIX(Portable Operating System Interface) (21.09.18) / 블로그 정리하면�
                 15. GROUP BY (물론 COUNT(*) 도 사용했지만) 등을 이용하면 데이터의 통계등도 얻을 수 있다
                         MIN, MAX, SUM 등의 함수도 이해, ROUND(수, 자르려는 자리수)
                 16. SELECT 이후 사칙연산 및 Factorial이나 ^(power)와 같은 연산자를 이용할 수도 있다.
+                17. AS xxxx 를 통해서 쿼리를 통해 나타나는 표기를 명확히 나타낼 수 있음. 타이틀이 정의되지 않았기 때문에 물음표나 ROUND 같은 명령어 등이 표기된다.
+                18. NULL 을 처리하는 방법
+                        병합 : COALESCE 를 이용하여 병합한다. NULL 에 원하는 값을 쓸수 있다
+                19. EXTRACT : 원하는 값을 추출, ex) SELECT EXTRACT (CENTURY FROM NOW());
+                20. AGE 라는 변수를 이용하면 A,B 사이 기간을 알 수 있다. ex) AGE(A, B) : B에서 A까지 기간
+                21. PRIMARY KEY 는 고유하게 구분하도록 하는 변수
+                        절대 중복될 수 없다, --> 중복생성 또는, 중복시 PRIMARY 선언시 에러 발생
+                        절대 NULL 일 수 없다.
+                        ALTER TABLE person ADD PRIMARY KEY (id);
+                        ALTER TABLE person DROP CONSTRAINT person_pkey;
+                22. UNIQUE를 통해서 CONSTRAINT를 선언하면, 동일한 값을 사용하지 못하게 할 수 있다.                      ** PRIMARY KEY와의 차이점은?
+                        ex) ALTER TABLE person ADD CONSTRAINT unque_email_constraint UNIQUE (email);     다음과 같이 선언시 UNIQUE하게 email 중복이 발생하지 않도록 할 수있다.
+
+        
 
 
         
