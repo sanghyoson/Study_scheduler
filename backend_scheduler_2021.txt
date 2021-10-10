@@ -217,8 +217,11 @@ POSIX(Portable Operating System Interface) (21.09.18) / 블로그 정리하면�
                 23. CHECK 를 이용한 CONSTRAINT에서는 조건에 원하는 조건이 만족되는지 확인하고 데이터를 입력할 수 있다.
                         ex) ALTER TALBER person ADD CONSTRAINT gender_constraint CHECK (gender IN ('Male', 'Female'));
                                 위 코드를 입력하면, 새로운 입력이 삽일 될 때, gender가 두 값이 이외의 값이 들어오면 에러를 발생 시킨다.
-
-
+                24. 데이터 삭제의 경우 위에서 언급한대로, DELETE를 이용하면 된다. id 뿐만아니라 조건을 선택해서 원하는 바를 지워 줄 수 있다.
+                25. 데이터 변경의 경우 UPDATE 를 이용, 
+                        ex) UPDATE person SET first_name = '11', last_name = '22' WHERE id = 'xx'; WHERE을 선언하지 않으면 전체로 변경
+                26. 예외 처리 ON CONFLICT (id) DO NOTHING : pass 시키는 구문과 같다. 한편 id, email과 같은 priamry 키와 같이 unique와 같은 제약조건이 존재할 때만 사용할 수 있다.
+                        정보 변경의 경우         DO UPDATE SET email = EXCLUDED.email; <-- 입력으로 들어가는 값으로 변경시켜라. EXLCUDE 
         
 
 
