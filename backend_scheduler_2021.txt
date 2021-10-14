@@ -232,6 +232,9 @@ POSIX(Portable Operating System Interface) (21.09.18) / 블로그 정리하면�
                 28. INNER JOIN : 교집합 느낌 -> 서로다른 테이블을 결합하여 새로운 테이블을 생성, Foreign키로 연결되어 있는 경우에만 Join한다.
                         ex) SELECT * FROM person JOIN car ON person.car_id = car.id;
                 29. LEFT JOIN(RIGHT 역시 존재) : JOIN이 Foreign을 기준으로 데이터를 자르는데 반해 기존(여기선 person, right는 car를 살린다) 데이터를 살린다.
+                30. 데이터가 참조되어 있을 경우 참조당하는 파일은 함부러 삭제할 수 없다. (외래 키가 존재하는지 항상 확인해라)
+        ** 
+
 
 
 
