@@ -295,8 +295,7 @@ JavaScript 기본베이스부터 새로 공부 , 변수/숫자연산자/문자�
 JavaScript 기본베이스부터 새로 공부 , 객체, 사용법 이해 (1110)
 JavaScript 비동기와 해결을 위한 콜백 함수 이해 시작(1113)
 
-
-
+JavaScript header / body ,, defer/async 차이 등 전체적으로 기본 다시 잡기(1114)
 
 
 
