@@ -297,8 +297,7 @@ JavaScript 비동기와 해결을 위한 콜백 함수 이해 시작(1113)
 
 JavaScript header / body ,, defer/async 차이 등 전체적으로 기본 다시 잡기(1114)
 JavaScript 기본 객체 및 데이터 타입 선언 방법 등 전체적으로 기본 다시 잡기(1116)
-
-
+JavaScript 함수 선언, 사용방법 (콜백함수 등) 전체적으로 기본 다시 잡기(1116)
 
 
 
