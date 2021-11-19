@@ -300,6 +300,22 @@ JavaScript 기본 객체 및 데이터 타입 선언 방법 등 전체적으로 
 JavaScript 함수 선언, 사용방법 (콜백함수 등) 전체적으로 기본 다시 잡기(1116)
 
 
+// Arrow function
+// always anonymous
+// make simple 
+const simplePrint = function (){
+    console.log('simple');
+}
+const simplePrint = () => console.log('more simple');
+// const add = function (a, b) {
+//     return a + b;
+// } 
+const add = (a, b) => a + b;
+// or const add = (a, b) => { return a + b; };
+
+// IIFE    
+// immdiately invoked function expression ... 바로 쓰는 방법이긴 한데 ... 자주 안씀
+
 
 
 
