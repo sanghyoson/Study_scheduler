@@ -316,6 +316,7 @@ const add = (a, b) => a + b;
 // IIFE    
 // immdiately invoked function expression ... 바로 쓰는 방법이긴 한데 ... 자주 안씀
 
+자바스크립트 문제 풀이 (난이도 상 ..> 알고리즘 짜는것이 어려움 ... 1120)
 
 
 
